@@ -67,6 +67,12 @@ main {
   color: #171717;
 }
 
+.card-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 .card-text {
   font-weight: 500;
   font-size: 16px;
@@ -81,6 +87,17 @@ main {
   font-size: 16px;
   line-height: 24px;
   color: #4338ca;
+}
+
+.card-action {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.read-more-arrow {
+  width: 20px;
+  height: 20px;
 }
 
 /* Credits */
